@@ -1,6 +1,41 @@
 import Wrapper from "../shared/Wrapper";
 import Boxes from "../shared/Boxes";
 
+export const programData = [
+  {
+    header: "Web 3.0",
+    description: "description of web 3.0",
+    quarter : [
+      {
+        header: "Quarter IV",
+        description:"Description",
+        number : 4
+      },
+      {
+        header: "Quarter V",
+        description:"Description",
+        number : 5
+      }
+    ]
+  },
+  {
+    header: "AI",
+    description: "description of Ai",
+    quarter : [
+      {
+        header: "Quarter IV",
+        description:"Description",
+        number : 4
+      },
+      {
+        header: "Quarter V",
+        description:"Description",
+        number : 5
+      }
+    ]
+  }
+]
+
 const Specialized = () => {
   return (
     <section>
@@ -10,13 +45,17 @@ const Specialized = () => {
           <h2 className="text-3xl font-bold sm:text-4xl mt-3 whitespace-pre">
             Specialized Tracks
           </h2>
-          <p className="mt-6 text-lg text-slate-600">After completing</p>
+          <p className="mt-6 text-lg text-slate-600 max-w-screen-md">
+            After completing
+          </p>
         </div>
 
         <div className="mt-10 flex gap-x-6 gap-y-8">
           {/* Content Left */}
           <div className="basis-8/12 shadow-xl rounded-xl border border-slate-200 py-8 px-8">
-            <h4 className="text-teal-600 text-lg">Specialized Program</h4>
+            <h4 className="text-primary text-lg font-medium">
+              Specialized Program
+            </h4>
             <h1 className="text-xl font-bold ">
               Web 3.0 Blockchain and Metaverse Specialization
             </h1>
@@ -49,6 +88,12 @@ const Specialized = () => {
             <div className="item-center flex gap-x-4 cursor-pointer">
               <div>
                 <div className="w-20 h-16 rounded bg-red-500">a</div>
+              </div>
+              <div>
+                <h4 className="text-primary text-xl font-semibold">
+                  Specialized Task
+                </h4>
+                <h3>Anything you want</h3>
               </div>
               <div>
                 <h4 className="text-primary text-xl font-semibold">
