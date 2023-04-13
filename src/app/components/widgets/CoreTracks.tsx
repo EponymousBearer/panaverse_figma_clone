@@ -26,7 +26,7 @@ const CoreTracks = () => {
   return (
     <section className="mt-40 mb-40">
       <Wrapper>
-        <div className="max-w-screen-xl bg-green-100">
+        <div className="max-w-screen-xl ">
           <h4 className="text-teal-800 font-semibold text-lg">
             PROGRAM OF STUDIES
           </h4>

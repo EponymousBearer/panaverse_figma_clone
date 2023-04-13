@@ -8,7 +8,7 @@ import Button from "@/app/components/shared/Button";
 const Hero = () => {
   return (
     <Wrapper>
-      <div className="flex items-center flex-col md:flex-row bg-pink-100 mt-20 mb-40">
+      <div className="flex items-center flex-col md:flex-row mt-20 mb-40">
         <div className="flex-1">
           {/* left side */}
           <h1 className="text-teal-800 font-semibold text-lg">

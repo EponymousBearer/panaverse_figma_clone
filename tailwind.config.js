@@ -29,8 +29,12 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      colors:{
+      colors: {
         primary: "#00616C"
+      },
+      backgroundImage: {
+        heropattern: "url('@/app/assets/images/background-ellipse-left.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
       }
     },
   },
