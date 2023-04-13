@@ -15,6 +15,10 @@ export default function Page() {
       {/* <div className="-z-10 bg-scroll bg-hero-pattern">
         <Image src={bgellipse} alt="bg shade" />
       </div> */}
+      {/* <div>
+      <Image alt="PIAIC Logo" width="437" height="600" decoding="async" data-nimg="1" 
+      className="absolute top-1/2 -z-40 opacity-10 left-0 right-0 mx-auto" src={bgellipse} />
+      </div> */}
       <CoreTracks></CoreTracks>
       <Specialized></Specialized>
       <ProgramOutcome></ProgramOutcome>

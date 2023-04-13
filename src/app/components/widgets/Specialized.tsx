@@ -151,7 +151,7 @@ const Specialized = () => {
   );
 
   return (
-    <section className="mt-40 mb-40">
+    <section className="mt-20 mb-20">
       <Wrapper>
         {/* Header */}
         <div>
@@ -164,20 +164,20 @@ const Specialized = () => {
           </p>
         </div>
 
-        <div className="mt-10 flex gap-x-6 gap-y-8">
+        <div className="mt-6 flex flex-col-reverse sm:flex-row gap-x-6 gap-y-8">
           {/* Content Left */}
           <div className="sticky top-28 basis-8/12 self-start shadow-xl rounded-xl border border-slate-200 py-8 px-8">
             <h4 className="text-primary text-lg font-medium">
             Specialized Program
             </h4>
             <h1 className="text-xl font-bold">{selectedItemsData?.header}</h1>
-            <p className="text-lg text-slate-600 mt-2">
+            <p className="tab:text-sm text-lg text-slate-600 mt-2">
               {selectedItemsData?.description}
             </p>
-            <button className="text-teal-700 text-xl  font-medium mt-4 underline flex">
+            <button className="text-teal-700 text-xl tab:text-sm font-medium mt-4 underline flex">
               Learn More {" > "}
             </button>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+            <div className="flex flex-col sm:flex-row md:flex-row tab:flex-col tab:gap-2 gap-4 tab:mt-4 mt-8">
               {selectedItemsData?.quarter.map((item) => (
                 <Boxes
                   key={item.number}
@@ -190,30 +190,26 @@ const Specialized = () => {
             </div>
           </div>
           {/* Content Right */}
-          <div className=" px-4 space-y-4 py-6 basis-4/12">
+          <div className=" px-4 tab:space-y-0 space-y-4 py-6 tab:basis-7/12 basis-4/12">
             {programData.map((item, i) => (
               <div
                 onClick={() => setSelectedItem(item.slug)}
                 key={item.slug}
-                className="item-center flex gap-x-2 cursor-pointer">
+                className="item-center flex tab:gap-x-1 gap-x-2 cursor-pointer">
                 <div className="flex flex-shrink-0 h-24 w-32">
                   <Image
                     src={item.image}
                     alt={item.header}
-                    className={"h-24 object-cover rounded-md"}
+                    className={"tab:h-16 h-24 object-cover rounded-md"}
                   />
                 </div>
                 <div>
-                  <h4 className="text-primary text-xl font-semibold">
+                  <h4 className="text-primary text-xl tab:text-sm font-semibold">
                     {item.mainline}
                   </h4>
-                  <h3>{item.header}</h3>
+                  <h3 className="tab:text-sm">{item.header}</h3>
                 </div>
               </div>
-              
-
-// Artificial Intelligence (AI) and Deep Learning Specialization
-
             ))}
           </div>
         </div>

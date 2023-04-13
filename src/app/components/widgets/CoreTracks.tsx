@@ -24,22 +24,22 @@ const CoreTracksData = [
 const CoreTracks = () => {
   const header = "Core Courses \n (Common in All Specializations):";
   return (
-    <section className="mt-40 mb-40">
+    <section className="mt-20 mb-20">
       <Wrapper>
         <div className="max-w-screen-xl ">
-          <h4 className="text-teal-800 font-semibold text-lg">
+          <h4 className="text-teal-800 font-semibold tab:text-md text-lg">
             PROGRAM OF STUDIES
           </h4>
-          <h1 className="text-4xl font-bold mt-3 whitespace-pre">{header}</h1>
-          <p className="mt-8 text-lg text-slate-600">
+          <h1 className="tab:text-3xl text-4xl font-bold mt-3 md:text-5xl whitespace-pre-line">{header}</h1>
+          <p className="tab:mt-3 mt-6 tab:text-sm text-lg text-slate-600">
             Every participant of the program will start by completing the
             following three core courses:
           </p>
-          <div className="flex mt-6">
+          <div className="flex mt-4">
             <Button text="Learn More" />
           </div>
         </div>
-        <div className="my-20 flex flex-col md:flex-row item-stretch gap-x-8 gap-y-6 ">
+        <div className="my-10 flex flex-col md:flex-row tab:flex-col item-stretch gap-x-8 gap-y-4 ">
           {CoreTracksData.map((item, i) => (
             <div
               key={i}
