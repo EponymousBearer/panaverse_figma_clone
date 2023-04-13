@@ -4,13 +4,19 @@ import Wrapper from "../shared/Wrapper";
 import Boxes from "../shared/Boxes";
 import Image from "next/image";
 import Web3Img from "@/app/assets/images/web3.png";
-import AiImg from "@/app/assets/images/ai.jpg";
+import AiImg2 from "@/app/assets/images/AiImg2.png";
+import AiImg3 from "@/app/assets/images/Aiimg3.png";
+import AiImg4 from "@/app/assets/images/Aiimg4.png";
+import AiImg5 from "@/app/assets/images/Aiimg5.png";
+import AiImg6 from "@/app/assets/images/Aiimg6.png";
+
 import { useState } from "react";
 
 export const programData = [
   {
     slug: "wmd",
     header: "Web 3.0 (Blockchain) and Metaverse Specialization",
+    mainline: "Specialized Program",
     description:
       "This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.",
     image: Web3Img,
@@ -31,9 +37,94 @@ export const programData = [
   },
   {
     slug: "ai",
-    header: "AI",
+    header: "Artificial Intelligence (AI) and Deep Learning Specialization",
+    mainline: "Specialized Program",
     description: "description of Ai",
-    image: AiImg,
+    image: AiImg2,
+    quarter: [
+      {
+        header: "Quarter IV",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 4,
+      },
+      {
+        header: "Quarter V",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 5,
+      },
+    ],
+  },
+  {
+    slug: "ai",
+    header: "Artificial Intelligence (AI) and Deep Learning Specialization",
+    mainline: "Specialized Program",
+    description: "description of Ai",
+    image: AiImg3,
+    quarter: [
+      {
+        header: "Quarter IV",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 4,
+      },
+      {
+        header: "Quarter V",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 5,
+      },
+    ],
+  },
+  {
+    slug: "ai",
+    header: "Artificial Intelligence (AI) and Deep Learning Specialization",
+    mainline: "Specialized Program",
+    description: "description of Ai",
+    image: AiImg4,
+    quarter: [
+      {
+        header: "Quarter IV",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 4,
+      },
+      {
+        header: "Quarter V",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 5,
+      },
+    ],
+  },
+  {
+    slug: "ai",
+    header: "Artificial Intelligence (AI) and Deep Learning Specialization",
+    mainline: "Specialized Program",
+    description: "description of Ai",
+    image: AiImg5,
+    quarter: [
+      {
+        header: "Quarter IV",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 4,
+      },
+      {
+        header: "Quarter V",
+        description:
+          "W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform",
+        number: 5,
+      },
+    ],
+  },
+  {
+    slug: "ai",
+    header: "Artificial Intelligence (AI) and Deep Learning Specialization",
+    mainline: "Specialized Program",
+    description: "description of Ai",
+    image: AiImg6,
     quarter: [
       {
         header: "Quarter IV",
@@ -50,6 +141,8 @@ export const programData = [
     ],
   },
 ];
+
+
 
 const Specialized = () => {
   const [selectedItem, setSelectedItem] = useState("wmd");
@@ -103,7 +196,7 @@ const Specialized = () => {
                 onClick={() => setSelectedItem(item.slug)}
                 key={item.slug}
                 className="item-center flex gap-x-2 cursor-pointer">
-                <div className="flex flex-shrink-0 h-24 w-36">
+                <div className="flex flex-shrink-0 h-24 w-32">
                   <Image
                     src={item.image}
                     alt={item.header}
@@ -112,11 +205,15 @@ const Specialized = () => {
                 </div>
                 <div>
                   <h4 className="text-primary text-xl font-semibold">
-                    Specialized Task
+                    {item.mainline}
                   </h4>
-                  <h3>Web 3.0 (Blockchain) and Metaverse Specialization</h3>
+                  <h3>{item.header}</h3>
                 </div>
               </div>
+              
+
+// Artificial Intelligence (AI) and Deep Learning Specialization
+
             ))}
           </div>
         </div>
