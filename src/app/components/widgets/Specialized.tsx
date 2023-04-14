@@ -16,7 +16,7 @@ export const programData = [
   {
     slug: "wmd",
     header: "Web 3.0 (Blockchain) and Metaverse Specialization",
-    mainline: "Specialized Program",
+    mainline: "Specialized Program!",
     description:
       "This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.",
     image: Web3Img,
