@@ -1,8 +1,8 @@
 import Wrapper from "../shared/Wrapper";
 import Image from "next/image";
-import outcome from "@/app/assets/images/programsection.png";
-import polygon from "@/app/assets/images/polygon_icon.png";
-import bgellipse from "@/app/assets/images/background-ellipse-left.png";
+import outcome from "../../assets/images/programsection.png";
+import polygon from "../../assets/images/polygon_icon.png";
+import bgellipse from "../../assets/images/background-ellipse-left.png";
 
 const outcomePoints = ["Product Ownership", "Freelancing", "Global Marketing by DAO", "Boosting Economy"];
 

@@ -3,12 +3,12 @@
 import Wrapper from "../shared/Wrapper";
 import Boxes from "../shared/Boxes";
 import Image from "next/image";
-import Web3Img from "@/app/assets/images/web3.png";
+import Web3Img from "../../assets/images/web3.png";
 import AiImg2 from "../../assets/images/AiImg2.png";
-import AiImg3 from "@/app/assets/images/Aiimg3.png";
-import AiImg4 from "@/app/assets/images/Aiimg4.png";
-import AiImg5 from "@/app/assets/images/Aiimg5.png";
-import AiImg6 from "@/app/assets/images/Aiimg6.png";
+import AiImg3 from "../../assets/images/AiImg3.png";
+import AiImg4 from "../../assets/images/AiImg4.png";
+import AiImg5 from "../../assets/images/AiImg5.png";
+import AiImg6 from "../../assets/images/AiImg6.png";
 
 import { useState } from "react";
 

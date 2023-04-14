@@ -1,9 +1,9 @@
 import Wrapper from "../shared/Wrapper";
 import Image from "next/image";
-import heroposterimage from "@/app/assets/images/hero-image2.png";
+import heroposterimage from "@../../assets/images/hero-image2.png";
 
 // components
-import Button from "@/app/components/shared/Button";
+import Button from "../../components/shared/Button";
 
 const Hero = () => {
   return (
