@@ -12,7 +12,7 @@ export default function Page() {
     <section>
     <>
       <Hero></Hero>
-      {/* <div className="-z-10 bg-scroll bg-hero-pattern">
+      {/* <div className="-z-10 bg-scroll mt-52 bg-black ">
         <Image src={bgellipse} alt="bg shade" />
       </div> */}
       {/* <div>

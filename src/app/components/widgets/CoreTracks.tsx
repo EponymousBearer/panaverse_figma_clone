@@ -24,14 +24,14 @@ const CoreTracksData = [
 const CoreTracks = () => {
   const header = "Core Courses \n (Common in All Specializations):";
   return (
-    <section className="mt-20 mb-20">
+    <section className="mt-20 mb-20 relative">
       <Wrapper>
-        <div className="max-w-screen-xl ">
-          <h4 className="text-teal-800 font-semibold tab:text-md text-lg">
+        <div className="max-w-screen-xl">
+          <h4 className="text-teal-800 font-semibold text-md tab:text-lg">
             PROGRAM OF STUDIES
           </h4>
-          <h1 className="tab:text-3xl text-4xl font-bold mt-3 md:text-5xl whitespace-pre-line">{header}</h1>
-          <p className="tab:mt-3 mt-6 tab:text-sm text-lg text-slate-600">
+          <h1 className="text-3xl tab:text-4xl font-bold mt-3 md:text-5xl whitespace-pre-line">{header}</h1>
+          <p className="mt-3 tab:mt-6 tab:text-sm text-lg text-slate-600">
             Every participant of the program will start by completing the
             following three core courses:
           </p>
@@ -39,7 +39,7 @@ const CoreTracks = () => {
             <Button text="Learn More" />
           </div>
         </div>
-        <div className="my-10 flex flex-col md:flex-row tab:flex-col item-stretch gap-x-8 gap-y-4 ">
+        <div className="my-10 flex tab:flex-col md:flex-row flex-col item-stretch gap-x-8 gap-y-4 ">
           {CoreTracksData.map((item, i) => (
             <div
               key={i}
@@ -54,6 +54,7 @@ const CoreTracks = () => {
           ))}
         </div>
       </Wrapper>
+      <div className="img absolute -z-10 -top-10"></div>
     </section>
   );
 };
