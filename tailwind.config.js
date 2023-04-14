@@ -15,10 +15,7 @@ module.exports = {
 
       'md': '768px',
       // => @media (min-width: 768px) { ... }
-
-      'tab': '820px',
-      // => @media (min-width: 768px) { ... }
-
+      
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
@@ -30,6 +27,15 @@ module.exports = {
 
       '3xl': '1920px',
       // => @media (min-width: 1536px) { ... }
+
+      'tab': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'phone': '320px',
+      // => @media (min-width: 768px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
     },
     extend: {
       colors: {
