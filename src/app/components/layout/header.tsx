@@ -12,10 +12,10 @@ const header = () => {
         <nav>
           <div className="flex justify-between max-w-screen-xl mx-auto py-2 items-center">
             <div>
-              <Image src={panaverse_logo} alt="Panaverse Dao Logo" />
+              <Image src={panaverse_logo} alt="Panaverse Dao Logo" className="mobile:scale-75"/>
             </div>  
             {/* max-w-screen-xl 2xl:max-w-screen-2xl 3xl:max-w-screen-3xl */}
-            <ul className="flex space-x-3 tab:space-x-10 xl:space-x-10 font-semibold text-sm md:text-md">
+            <ul className="flex space-x-3 tab:space-x-10 mobile:space-x-3 xl:space-x-10 font-semibold mobile:text-[10px] text-sm md:text-md">
               <li className="flex items-center gap-x-1">
                 <div>
                    <Link href={"/"}>Courses</Link>

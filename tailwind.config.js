@@ -10,6 +10,8 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'mobile': '320px',
+
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -34,7 +36,7 @@ module.exports = {
       'phone': '320px',
       // => @media (min-width: 768px) { ... }
 
-      'laptop': '1024px',
+      'laptop': '1440px',
       // => @media (min-width: 1024px) { ... }
     },
     extend: {

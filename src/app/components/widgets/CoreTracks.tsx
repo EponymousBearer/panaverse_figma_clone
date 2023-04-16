@@ -27,27 +27,27 @@ const CoreTracks = () => {
     <section className="mt-20 mb-20 relative">
       <Wrapper>
         <div className="max-w-screen-xl">
-          <h4 className="text-teal-800 font-semibold laptop:mt-10 laptop:text-lg tab:text-lg">
+          <h4 className="text-teal-800 font-semibold laptop:mt-10 laptop:text-lg tab:text-sm mobile:text-sm">
             PROGRAM OF STUDIES
           </h4>
-          <h1 className="text-3xl laptop:mt-2 laptop:text-5xl laptop:text-left tab:text-4xl font-bold mt-3 whitespace-pre-line">{header}</h1>
-          <p className="laptop:mt-6 laptop:mr-12 tab:mt-6 tab:text-sm laptop:text-lg text-slate-600">
+          <h1 className="text-3xl laptop:mt-2 laptop:text-5xl laptop:text-left tab:text-left tab:text-3xl tab:mt-2 mobile:text-centre mobile:text-2xl mobile:mt-1 font-bold mt-3 whitespace-pre-line">{header}</h1>
+          <p className="laptop:mt-6 laptop:mr-12 tab:mt-2 text-md laptop:text-lg mobile:mr-6 mobile:mt-4 mobile:text-sm text-slate-600">
             Every participant of the program will start by completing the
             following three core courses:
           </p>
-          <div className="flex laptop:mt-6">
+          <div className="flex mobile:scale-75 mobile:justify-center laptop:mt-6 tab:mt-6 mobile:mt-6">
             <Button text="Learn More" />
           </div>
         </div>
-        <div className="my-8 flex tab:flex-col laptop:flex-row item-stretch gap-x-8 gap-y-4 ">
+        <div className="my-8 flex mobile:flex-col tab:flex-col lg:flex-row laptop:flex-row item-stretch gap-x-8 gap-y-4 ">
           {CoreTracksData.map((item, i) => (
             <div
               key={i}
-              className="flex flex-col flex-1 justify-center border rounded-md laptop:px-6 laptop:py-14 py-16 px-8 relative"
+              className="flex flex-col flex-1 justify-center mobile:px-2 mobile:py-10 border rounded-md laptop:px-6 laptop:py-14 py-16 px-8 relative tab:px-2 tab:py-10 w-auto"
             >
-              <h1 className="font-bold text-lg mt-4">{item.header}</h1>
-              <p className="text-slate-600 mt-2 z-0 laptop:text-md ">{item.description}</p>
-              <div className="absolute -top-8 right-10 text-[150px] font-bold opacity-20 -z-10">
+              <h1 className="font-semibold">{item.header}</h1>
+              <p className="text-slate-600 laptop:text-md tab:text-sm mobile:text-[10px] laptop:mr-8">{item.description}</p>
+              <div className="absolute top-0 right-7 mobile:text-7xl tab:text-8xl laptop:text-9xl font-bold opacity-20 -z-10">
                 {i + 1}
               </div>
             </div>
