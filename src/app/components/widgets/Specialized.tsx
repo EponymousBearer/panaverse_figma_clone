@@ -153,6 +153,7 @@ const Specialized = () => {
   return (
     <section className="laptop:mt-24 mb-20">
       <Wrapper>
+        <div>
         {/* Header */}
         <div>
           <h2 className="laptop:mt-2 laptop:text-5xl tab:text-left tab:text-3xl tab:mt-2 text-4xl mobile:text-centre mobile:text-2xl mobile:mt-3 font-bold sm:text-4xl mt-3 whitespace-pre">
@@ -212,6 +213,7 @@ const Specialized = () => {
               </div>
             ))}
           </div>
+        </div>
         </div>
       </Wrapper>
     </section>
