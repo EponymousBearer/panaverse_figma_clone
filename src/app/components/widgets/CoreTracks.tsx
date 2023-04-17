@@ -54,7 +54,7 @@ const CoreTracks = () => {
           ))}
         </div>
       </Wrapper>
-      <div className="img absolute -z-10 -top-10"></div>
+      <div className="img absolute -z-10 -top-10 mobile:scale-50 laptop:scale-100"></div>
     </section>
   );
 };

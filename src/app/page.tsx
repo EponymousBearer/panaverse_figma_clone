@@ -3,19 +3,18 @@ import CoreTracks from "./components/widgets/CoreTracks";
 import Head from "next/head";
 import Specialized from "./components/widgets/Specialized";
 import ProgramOutcome from "./components/widgets/ProgramOutcome";
-import bgellipse from "@/app/assets/images/background-ellipse-left.png";
-import Image from "next/image";
 
 
 export default function Page() {
   return (
-    <section>
+    // <h2>e</h2>
+    <main>
     <>
-      <Hero></Hero>
-      <CoreTracks></CoreTracks>
-      <Specialized></Specialized>
-      <ProgramOutcome></ProgramOutcome>
+      <section><Hero></Hero></section>
+      <section><CoreTracks></CoreTracks></section>
+      <section><Specialized></Specialized></section>
+      <section><ProgramOutcome></ProgramOutcome></section>
     </>
-    </section>
+    </main>
   );
 }

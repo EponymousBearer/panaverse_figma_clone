@@ -8,9 +8,10 @@ const outcomePoints = ["Product Ownership", "Freelancing", "Global Marketing by 
 
 const ProgramOutcome = () => {
   return (
-    <section className="mt-16 md:mt-28 mb-28 relative">
+    <div className="">
+    <section className="mt-16 md:mt-28 mb-28 relative ">
       <Wrapper>
-        <div className="flex gap-x-8 items-center flex-col sm:flex-row">
+        <div className="flex gap-x-8 items-center flex-col sm:flex-row ">
           {/* {Left - Image} */}
           <div className="flex-1 mobile:justify-center">
             <Image src={outcome} alt="program outcome" />
@@ -41,8 +42,9 @@ const ProgramOutcome = () => {
           </div>
         </div>
       </Wrapper>
-      <div className="img2 absolute -z-10 -top-10"></div>
+      <div className="img2 absolute -z-10 -top-10 tab:-mt-14 tab:ml-[525px] mobile:ml-20 mobile:scale-50 laptop:ml-[1125px] mt-48 laptop:scale-100"></div>
     </section>
+    </div>
   );
 };
 
