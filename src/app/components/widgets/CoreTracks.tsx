@@ -24,7 +24,7 @@ const CoreTracksData = [
 const CoreTracks = () => {
   const header = "Core Courses \n (Common in All Specializations):";
   return (
-    <section className="mt-48 mb-24 relative">
+    <section className="mt-40 mb-40 relative">
       <Wrapper>
         <div className="max-w-screen-xl">
           <h4 className= "text-teal-800 3xl:text-3xl font-semibold laptop:mt-10 laptop:text-lg tab:text-sm mobile:text-sm">
@@ -39,7 +39,7 @@ const CoreTracks = () => {
             <Button text="Learn More" />
           </div>
         </div>
-        <div className="flex 3xl:gap-x-8 my-8 mobile:flex-col tab:flex-col lg:flex-row laptop:flex-row justify-items-stretch gap-x-8 gap-y-4">
+        <div className="flex max-w-screen-3xl items-center justify-center 3xl:gap-x-8 my-8 gap-x-8 gap-y-4 mobile:flex-col tab:flex-col lg:flex-row laptop:flex-row ">
               {CoreTracksData.map((item, i) => (
                 <Boxes
                   key={i}
