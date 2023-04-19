@@ -36,7 +36,7 @@ module.exports = {
       'phone': '320px',
       // => @media (min-width: 768px) { ... }
 
-      'laptop': '1440px',
+      'laptop': '1366px',
       // => @media (min-width: 1024px) { ... }
     },
     extend: {
@@ -46,8 +46,13 @@ module.exports = {
       backgroundImage: {
         heropattern: "url('@/app/assets/images/background-ellipse-left.png')",
         'footer-texture': "url('/img/footer-texture.png')",
-      }
+      },
+      scale: {
+        '175': '1.75',
+        '185': '1.85',
+        }
     },
   },
   plugins: [],
 }
+

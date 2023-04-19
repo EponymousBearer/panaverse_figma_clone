@@ -7,19 +7,18 @@ import dropdownsvg from "@/app/assets/images/dropdownsvg.png";
 
 const header = () => {
   return (
-    <Wrapper>
       <header className="sticky top-0 z-10 bg-white">
         <nav>
-          <div className="flex justify-between mx-auto py-2 items-center">
+          <div className="flex justify-between py-2 items-center">
             <div>
               <Image
                 src={panaverse_logo}
                 alt="Panaverse Dao Logo"
-                className="mobile:scale-75"
+                className="mobile:-m-2 lg:scale-125 mobile:scale-75 laptop:scale-150 lg:m-5 laptop:m-10"
               />
             </div>
             {/* max-w-screen-xl 2xl:max-w-screen-2xl 3xl:max-w-screen-3xl */}
-            <ul className="flex space-x-3 tab:space-x-10 mobile:space-x-3 xl:space-x-10 font-semibold mobile:text-[10px] text-sm md:text-md">
+            <ul className="flex mobile:-m-2 laptop:space-x-20 3xl:space-x-24 laptop:text-3xl laptop:m-10 tab:space-x-10 mobile:space-x-4 mobile:text-sm font-semibold">
               <li className="flex items-center gap-x-1">
                 <div>
                   <Link href={"/"}>Courses</Link>
@@ -38,7 +37,6 @@ const header = () => {
           </div>
         </nav>
       </header>
-    </Wrapper>
   );
 };
 

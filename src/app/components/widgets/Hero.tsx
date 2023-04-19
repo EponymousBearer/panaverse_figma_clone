@@ -9,30 +9,30 @@ const Hero = () => {
   return (
     <section>
       <Wrapper>
-        <div className="flex items-center laptop:flex-row laptop:justify-center tab:flex-row mt-14 mb-20 laptop:gap-x-48">
-          <div className="flex-1 laptop:pr-40">
+        <div className="flex  items-center mobile:flex-col laptop:flex-row laptop:justify-center tab:flex-row mt-16 mb-32 laptop:gap-x-48">
+          <div className="flex-auto ">
             {/* left side */}
-            <h1 className="text-teal-800 font-semibold laptop:mt-10 laptop:text-lg tab:text-sm mobile:text-sm">
+            <h1 className="text-teal-800 3xl:text-3xl font-semibold laptoplg:text-xl laptop:mt-10 laptop:text-lg tab:text-sm mobile:text-sm">
               Presidential Initiative For Artificial Intelligance and Computing
               (PIAIC)
             </h1>
-            <h4 className=" font-bold laptop:mt-4 laptop:-mr-52 laptop:text-8xl laptop:text-left tab:text-left tab:text-3xl tab:mt-2 mobile:text-centre mobile:text-2xl mobile:mt-3 text-center">
+            <h4 className="3xl:mt-5 font-bold 3xl:text-8xl laptop:mt-4 laptop:-mr-52 laptop:text-6xl laptop:text-left tab:text-left tab:text-3xl tab:mt-2 mobile:text-centre mobile:text-2xl mobile:mt-3 text-center">
               Certified Web 3.0 and Metaverse Developer
             </h4>
-            <p className="laptop:mt-8 laptop:mr-12 tab:mr-12 tab:mt-4 mobile:mr-6 mobile:mt-4 mobile:text-sm text-md text-slate-600">
+            <p className="3xl:mt-14 3xl:text-4xl laptop:mt-8 laptop:mr-1 laptop:text-xl tab:mr-12 tab:mt-4 mobile:mr-6 mobile:mt-4 mobile:text-sm text-md text-slate-600">
               A One and Quarter Years Panaverse DAO Earn as you Learn Program
               Getting Ready for the Next Generation of the Internet
             </p>
-            <p className="laptop:mt-3 laptop:mr-12 tab:mr-12 tab:mt-2 mobile:mr-6 mobile:mt-2 mobile:text-sm text-slate-600">
+            <p className="3xl:mt-8 3xl:text-4xl laptop:mt-4 laptop:mr-1 laptop:text-xl tab:mr-12 tab:mt-2 mobile:mr-6 mobile:mt-2 mobile:text-sm text-slate-600">
               Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
               Cloud, Edge, Ambient Computing/IoT, Network Automation, and
               Bioinformatics Technologies
             </p>
-            <div className="flex mobile:scale-75 tab:mt-4 mt-6 justify-center md:justify-start">
+            <div className="flex 3xl:-ml-36 3xl:mt-10 mobile:scale-75 tab:mt-4 mt-12">
               <Button text="Learn More" />
             </div>
           </div>
-          <div className="flex-1 mobile:mt-4 laptop:scale-125">
+          <div className="flex 3xl:scale-185 3xl:-mt-44 3xl:mr-24 mobile:mt-4 laptop:scale-125">
             {/* right side */}
             <Image src={heroposterimage} alt="Hero image" />
           </div>
