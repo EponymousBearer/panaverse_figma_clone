@@ -17,9 +17,7 @@ export default function RootLayout({
         <link rel="icon" href="/panaverse.ico" />
       </head>
       <body>
-        <Wrapper>
           <Header></Header>
-        </Wrapper>
         {children}
       </body>
     </html>

@@ -9,19 +9,19 @@ const outcomePoints = ["Product Ownership", "Freelancing", "Global Marketing by 
 const ProgramOutcome = () => {
   return (
     <div className="">
-    <section className="mt-40 md:mt-28 mb-24 relative ">
+    <section className="mb-10 mt-20 laptop:mt-40 laptop:mb-30 relative ">
       <Wrapper>
-        <div className="flex gap-x-8 items-center flex-col sm:flex-row ">
+        <div className="flex gap-x-8 gap-y-1 items-center flex-col tab:flex-row">
           {/* {Left - Image} */}
-          <div className="flex-1 3xl:scale-110 3xl:ml-36 mobile:justify-center">
+          <div className="flex-1 3xl:scale-110 3xl:ml-36 mobile:scale-90 mobile:justify-center">
             <Image src={outcome} alt="program outcome" />
           </div>
           {/* {Right - Content} */}
           <div className="flex-1">
-            <h2 className="font-bold 3xl:mt-5 3xl:text-7xl mobile:text-centre mobile:text-2xl mobile:mt-3 tab:text-left tab:text-3xl tab:mt-2 text-5xl mt-8">
+            <h2 className="font-bold 3xl:mt-5 3xl:text-7xl mobile:text-centre mobile:text-2xl tab:text-left tab:text-3xl tab:mt-2 laptop:text-4xl">
               The Outcome for Participants of the Program
             </h2>
-            <p className="3xl:mt-14 3xl:text-4xl mt-6 mobile:mr-6 mobile:mt-4 mobile:text-sm tab:mr-10 tab:text-justify tab:mt-4 text-md text-slate-600 text-lg">
+            <p className="3xl:mt-14 3xl:text-4xl laptop:text-2xl laptop:mt-4 mobile:text-justify mobile:mt-3 mobile:text-sm tab:text-justify text-slate-600">
               As a graduate of this program, you will own valuable products such
               as Full-Stack App Templates, AR and VR Experiences, and APIs that
               are marketed globally by the Panaverse DAO. You will also have the
@@ -32,10 +32,10 @@ const ProgramOutcome = () => {
             <div className="3xl:mt-14 mt-6 grid grid-cols-2 gap-x-2 gap-y-4">
               {outcomePoints.map((item, i) => (
                 <div key={i} className="flex items-center gap-x-2">
-                  <div className="3xl:mt-5 3xl:m-3 scale-125">
+                  <div className="3xl:mt-5 3xl:m-3 scale-100">
                     <Image src={polygon} alt="polygon icon" />
                   </div>
-                  <h3 className="3xl:mt-5 3xl:m-3 3xl:text-3xl font-medium text-lg mobile:text-sm">{outcomePoints[i]}</h3>
+                  <h3 className="3xl:mt-5 3xl:m-3 3xl:text-3xl font-medium laptop:text-lg mobile:text-sm">{outcomePoints[i]}</h3>
                 </div>
               ))}
             </div>

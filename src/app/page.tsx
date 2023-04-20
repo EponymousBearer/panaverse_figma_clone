@@ -7,7 +7,6 @@ import ProgramOutcome from "./components/widgets/ProgramOutcome";
 
 export default function Page() {
   return (
-    // <h2>e</h2>
     <main>
     <>
       <section><Hero></Hero></section>
