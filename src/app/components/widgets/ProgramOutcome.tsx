@@ -18,7 +18,7 @@ const ProgramOutcome = () => {
           </div>
           {/* {Right - Content} */}
           <div className="flex-1">
-            <h2 className="font-bold 3xl:mt-5 3xl:text-7xl mobile:text-centre mobile:text-2xl tab:text-left tab:text-3xl tab:mt-2 laptop:text-4xl">
+            <h2 className="font-bold 3xl:mt-5 3xl:text-7xl mobile:text-center mobile:text-3xl tab:text-left tab:text-3xl tab:mt-2 laptop:text-4xl">
               The Outcome for Participants of the Program
             </h2>
             <p className="3xl:mt-14 3xl:text-4xl laptop:text-2xl laptop:mt-4 mobile:text-justify mobile:mt-3 mobile:text-sm tab:text-justify text-slate-600">

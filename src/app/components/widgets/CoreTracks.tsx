@@ -30,7 +30,7 @@ const CoreTracks = () => {
           <h4 className= "text-teal-800 3xl:text-3xl font-semibold laptop:text-xl tab:text-sm mobile:text-sm">
             PROGRAM OF STUDIES
           </h4>
-          <h1 className="3xl:mt-5 3xl:text-7xl laptop:mt-2 laptop:text-5xl laptop:text-left tab:text-left tab:text-3xl tab:mt-2 mobile:text-centre mobile:text-2xl mobile:mt-0 font-bold whitespace-pre-line">{header}</h1>
+          <h1 className="3xl:mt-5 3xl:text-7xl laptop:mt-2 laptop:text-5xl laptop:text-left tab:text-left tab:text-3xl tab:mt-2 mobile:text-centre mobile:text-3xl mobile:mt-0 font-bold whitespace-pre-line">{header}</h1>
           <p className="3xl:mt-14 3xl:text-4xl laptop:mt-6 laptop:mr-12 tab:mt-2 laptop:text-2xl mobile:mr-6 mobile:mt-4 mobile:text-sm text-slate-600">
             Every participant of the program will start by completing the
             following three core courses:

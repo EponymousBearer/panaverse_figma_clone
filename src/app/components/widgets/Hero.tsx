@@ -16,7 +16,7 @@ const Hero = () => {
               Presidential Initiative For Artificial Intelligance and Computing
               (PIAIC)
             </h1>
-            <h4 className="3xl:mt-5 font-bold 3xl:text-8xl laptop:mt-4 laptop:text-6xl laptop:text-left tab:text-left tab:text-3xl tab:mt-2 mobile:text-centre mobile:text-[26px] mobile:mt-3 text-center">
+            <h4 className="3xl:mt-5 font-bold 3xl:text-8xl laptop:mt-4 laptop:text-6xl laptop:text-left tab:text-left tab:text-3xl tab:mt-2 mobile:text-centre mobile:text-3xl mobile:mt-3 text-center">
               Certified Web 3.0 and Metaverse Developer
             </h4>
             <p className="3xl:mt-14 3xl:mr-20 3xl:text-4xl laptop:mt-8 laptop:text-2xl tab:mr-12 tab:mt-4 mobile:mr-6 mobile:mt-5 mobile:text-justify mobile:text-lg text-md text-slate-600">
