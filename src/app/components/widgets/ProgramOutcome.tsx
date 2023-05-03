@@ -42,7 +42,7 @@ const ProgramOutcome = () => {
           </div>
         </div>
       </Wrapper>
-      <div className="img2 absolute -z-10 -top-10 tab:-mt-14 tab:ml-[525px] mobile:ml-20 mobile:scale-50 laptop:ml-[1125px] mt-48 laptop:scale-100"></div>
+      <div className="img2 absolute -z-10 -top-10 tab:-mt-14 tab:ml-[525px] mobile:ml-20 mobile:scale-50 laptop:ml-[975px] mt-48 laptop:scale-100"></div>
     </section>
     </div>
   );
