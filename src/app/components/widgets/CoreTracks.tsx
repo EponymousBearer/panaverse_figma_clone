@@ -6,7 +6,17 @@ const CoreTracksData = [
   {
     header: "Quarter I",
     description: "CS-101: Object-Oriented Programming using TypeScript",
-    number: "1",
+    number: 1,
+  },
+  {
+    header: "Quarter II",
+    description: "CS-102: Object-Oriented Programming using TypeScript",
+    number: 2,
+  },
+  {
+    header: "Quarter III",
+    description: "CS-103: Object-Oriented Programming using TypeScript",
+    number: 3,
   },
 ];
 
@@ -31,39 +41,16 @@ const CoreTracks = () => {
           </div>
         </div>
         <div className="flex max-w-screen-3xl items-center justify-center 3xl:gap-x-8 my-1 laptop:my-10 gap-x-8 gap-y-3 mobile:flex-col tab:flex-row">
-          <div className=" mt-6 flex flex-col gap-y-3 md:flex-row gap-x-3">
-            <div className="flex flex-col md:gap-y-5 rounded-md p-10 flex-1 relative border-2">
-              <h2 className="text-base font-semibold">Quarter I</h2>
-              <p className="text-lg text-slate-600">
-                CS-101: Object-Oriented Programming using TypeScript
-              </p>
-              <div className="absolute top-0 md:top-10 right-10 text-9xl font-bold -z-10 text-gray-300">
-                1
-              </div>
-            </div>
-            <div className="flex flex-col md:gap-y-5 rounded-md p-10 flex-1 relative border-2">
-              <h2 className="text-base font-semibold">Quarter II</h2>
-              <p className="text-lg text-slate-600">
-                W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud
-                Apps and APIs using Next.js 13 and Cloud Development Kit (CDK)
-                for Terraform
-              </p>
-              <div className="absolute top-0 md:top-10 right-10 text-9xl font-bold -z-10 text-gray-300">
-                2
-              </div>
-            </div>
-            <div className="flex flex-col md:gap-y-5 rounded-md p-10 flex-1 relative border-2">
-              <h2 className="text-base font-semibold">Quarter III</h2>
-              <p className="text-lg text-slate-600">
-                $-101: Dollar Making Bootcamp - Full-Stack Template and API
-                Product Development
-              </p>
-              <div className="absolute top-0 md:top-10 right-10 text-9xl font-bold -z-10 text-gray-300">
-                3
-              </div>
-            </div>
+          <div className="mt-6 flex flex-col gap-y-3 md:flex-row gap-x-3">
+            {CoreTracksData.map((track, index) => (
+              <Boxes
+                key={index}
+                header={track.header}
+                description={track.description}
+                number={track.number}
+              />
+            ))}
           </div>
-          ;
         </div>
       </Wrapper>
       <div className="img absolute -z-10 -top-10 mobile:scale-50 laptop:scale-100"></div>

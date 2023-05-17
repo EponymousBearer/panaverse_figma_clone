@@ -28,13 +28,12 @@ const Hero = () => {
               Cloud, Edge, Ambient Computing/IoT, Network Automation, and
               Bioinformatics Technologies
             </p>
-            <div className="flex 3xl:justify-center 3xl:mt-10 3xl:scale-90 mobile:scale-50 tab:mt-2 mobile:mt-2 justify-center mt-12">
+            <div className="flex 3xl:mr-[850px] mobile:justify-start 3xl:mt-10 3xl:scale-90 mobile:scale-50 tab:mt-2 mobile:mt-2 mt-12">
               <Button text="Learn More" />
             </div>
           </div>
           {/* right side */}
           <div className="flex 3xl:scale-225 3xl:-mt-44 3xl:mr-40 laptop:-mt-16 laptop:mr-10 laptop:scale-225 tab:scale-90 tab:-mt-4 mobile:mt-4">
-            
             <Image src={heroposterimage} alt="Hero image" />
           </div>
         </div>
