@@ -9,9 +9,9 @@ const Hero = () => {
   return (
     <section>
       <Wrapper>
-        <div className="flex mt-6 mb-20 laptop:mb-40 items-center mobile:flex-col laptop:flex-row laptop:justify-center tab:flex-col laptop:gap-x-48">
+        <div className="flex mt-14 mb-20 laptop:mb-40 items-center mobile:flex-col laptop:flex-row laptop:justify-center tab:flex-col laptop:gap-x-48">
           {/* left side */}
-          <div className="flex-auto ">
+          <div className="flex-auto">
             <h1 className="text-teal-800 3xl:text-3xl font-semibold laptop:text-xl tab:text-sm mobile:text-[13px]">
               Presidential Initiative For Artificial Intelligance and Computing
               (PIAIC)

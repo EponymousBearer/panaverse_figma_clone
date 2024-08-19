@@ -178,7 +178,7 @@ const Specialized = () => {
               <button className="text-teal-700 3xl:mt-6 3xl:text-3xl laptop:text-2xl tab:text-sm mobile:text-[14px] mobile:mt-2 font-medium laptop:mt-6 underline flex">
                 Learn More {" > "}
               </button>
-              <div className="flex 3xl:mt-0 3xl:-mb-12 mobile:flex-col mobile:gap-2 mobile:mt-2 tab:flex-col tab:gap-2 tab:mt-4 laptop:flex-row laptop:gap-4 laptop:mt-3">
+              <div className="flex 3xl:m-12 mobile:flex-col mobile:gap-2 mobile:mt-2 tab:flex-col tab:gap-2 tab:mt-4 laptop:flex-row laptop:gap-4 laptop:mt-3">
                 {selectedItemsData?.quarter.map((item) => (
                   <Boxes
                     key={item.number}
@@ -211,7 +211,7 @@ const Specialized = () => {
                     <h4 className="text-primary 3xl:text-3xl laptop:text-xl tab:text-md mobile:text-sm font-semibold">
                       {item.mainline}
                     </h4>
-                    <h3 className="text-slate-600 3xl:text-2xl laptop:text-lg tab:text-sm mobile:text-[13px]">
+                    <h3 className="text-slate-600 3xl:text-2xl 3xl:mt-1 laptop:text-lg tab:text-sm mobile:text-[13px]">
                       {item.header}
                     </h3>
                   </div>

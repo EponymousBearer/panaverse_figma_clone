@@ -19,7 +19,7 @@ const header = () => {
               />
             </div>
             {/* max-w-screen-xl 2xl:max-w-screen-2xl 3xl:max-w-screen-3xl */}
-            <ul className="flex 3xl:space-x-24 3xl:text-3xl 3xk:-mr-0 laptop:space-x-20 laptop:text-2xl laptop:-mr-12 tab:mr-14 tab:space-x-16 tab:text-xl mobile:space-x-3 mobile:text-[13px] font-semibold">
+            <ul className="flex 3xl:space-x-24 3xl:text-3xl 3xl:mr-0 laptop:space-x-20 laptop:text-2xl laptop:-mr-12 tab:mr-14 tab:space-x-16 tab:text-xl mobile:space-x-3 mobile:text-[13px] font-semibold">
               <li className="flex items-center gap-x-1">
                 <div>
                   <Link href={"/"}>Courses</Link>
